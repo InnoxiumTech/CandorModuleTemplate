@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
 
-    implementation 'uk.co.innoxium.candor:candor-api:0.2.17'
+    implementation 'uk.co.innoxium.candor:candor-api:0.2.20'
 
     implementation 'uk.co.innoxium.cybernize:cybernize:1.1.6'
     implementation 'com.electronwill.night-config:toml:3.6.3'
