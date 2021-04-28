@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: uk.co.innoxium.candor:candor-api
+    versions:
+    - 0.2.17
+    - 0.2.18
+    - 0.2.20
+    - 0.3.0-pre
+    - 0.3.0-pre2
+    - 0.3.0-pre3
+  - dependency-name: com.google.guava:guava
+    versions:
+    - 30.1-jre
+  - dependency-name: uk.co.innoxium.cybernize:cybernize
+    versions:
+    - 1.1.5
+  - dependency-name: org.apache.commons:commons-lang3
+    versions:
+    - "3.11"
