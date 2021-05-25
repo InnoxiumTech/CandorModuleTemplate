@@ -25,7 +25,7 @@ dependencies {
     implementation 'uk.co.innoxium.cybernize:cybernize:1.1.6'
     implementation 'com.electronwill.night-config:toml:3.6.3'
 
-    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.google.code.gson:gson:2.8.7'
     implementation 'com.google.guava:guava:29.0-jre'
     implementation "org.apache.commons:commons-lang3:3.10"
     implementation "commons-io:commons-io:2.7"
